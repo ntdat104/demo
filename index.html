@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/x-icon" href="https://www.freeiconspng.com/uploads/mickey-mouse-icon-7.gif">
+    <link rel="stylesheet" type="text/css" href="./index.css">
+    <script src="./index.js"></script>
+    <title>Login</title>
+</head>
+<body>
+    <form class="box1" method="get" id="box_1">
+        <h1>Login</h1>
+        <input type="text" name="name" placeholder="Username" id="Username"/>
+        <input type="password" name="password" placeholder="Password" id="Password"/>
+        <button formmethod="get" onclick="myfunction()" type="button">Sign in</button>
+    </form>
+    <form class="box" method="get" id="box">
+            <button id="b1" formmethod="get" onclick="calfunction1()" type="button"><h1>Danh Sách Khách Hàng</h1></button>
+            <button id="b2" formmethod="get" onclick="calfunction2()" type="button"><h1>Nhập Liệu</h1></button>
+            <iframe id="trangtinh" src="https://docs.google.com/spreadsheets/d/1qknhNbu1FHeTnMLs3MSFBXY-Bmbi4lIZqJeeVuC-Uhk/edit?usp=sharing" width="100%" height="900" frameborder="0" marginheight="0" marginwidth="0"></iframe>
+            <iframe id="nhap" src="https://docs.google.com/forms/d/e/1FAIpQLSe_f6t7KFnIlNp_EZpBAAxF39lB0xKRqr98vQmv3KiJ9D6qmg/viewform?embedded=true" width="100%" height="900" frameborder="0" marginheight="0" marginwidth="0"></iframe>
+    </form>
+</body>
